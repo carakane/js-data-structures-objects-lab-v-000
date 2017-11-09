@@ -12,7 +12,6 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
 }
 
 function deleteFromDriverByKey(driver, key) {
-  console.log(driver)
   return delete driver.key
 }
 
