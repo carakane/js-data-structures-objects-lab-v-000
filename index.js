@@ -2,6 +2,6 @@
 
 let driver = {};
 
-function updatedriverWithKeyAndValue(driver, key, value) {
+function updateDriverWithKeyAndValue(driver, key, value) {
   Object.assign(driver, {key: value})
 }
